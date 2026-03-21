@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@custom-variant hover (&:hover);
+
+html {
+
+}
