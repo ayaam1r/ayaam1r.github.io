@@ -11,32 +11,32 @@ function Hero() {
         </p>
 
         {/* Name */}
-        <h1 className="text-5xl md:text-7xl font-bold text-white animate-pulse">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white animate-pulse">
           Aya Amir
         </h1>
 
         {/* Title */}
-        <p className="text-xl md:text-2xl text-zinc-400">
+        <p className="text-lg sm:text-xl md:text-2xl text-zinc-400">
           Web Developer • Full-Stack • Always Building
         </p>
 
         {/* Bio */}
-        <p className="text-zinc-500 max-w-xl text-base leading-relaxed">
-          Software Developer specializing in Full Stack Development with expertise in 
+        <p className="text-zinc-500 max-w-xl text-sm sm:text-base leading-relaxed">
+          Software Developer specializing in Full Stack Development with expertise in
           React.js, PHP Laravel, Node.js and modern web technologies.
         </p>
 
         {/* Buttons */}
-        <div className="flex items-center gap-4 mt-2">
-          <a
-            href="#projects"
-            className="bg-purple-600 hover:bg-purple-500 text-white px-6 py-3 rounded-lg transition-colors font-medium">
-        
+        <div className="flex flex-col sm:flex-row items-center gap-4 mt-2 w-full sm:w-auto">
+          
+        <a    href="#projects"
+            className="w-full sm:w-auto text-center bg-purple-600 hover:bg-purple-500 text-white px-6 py-3 rounded-lg transition-colors font-medium"
+          >
             View Projects
           </a>
           
-           <a href="#contact"
-            className="border border-zinc-700 hover:border-purple-400 text-zinc-400 hover:text-purple-400 px-6 py-3 rounded-lg transition-colors font-medium"
+         <a   href="#contact"
+            className="w-full sm:w-auto text-center border border-zinc-700 hover:border-purple-400 text-zinc-400 hover:text-purple-400 px-6 py-3 rounded-lg transition-colors font-medium"
           >
             Contact Me
           </a>
@@ -45,7 +45,7 @@ function Hero() {
         {/* Social Links */}
         <div className="flex items-center gap-6 mt-2 text-sm text-zinc-500">
           
-           <a href="https://github.com/ayaam1r"
+        <a    href="https://github.com/ayaam1r"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-purple-400 transition-colors"
@@ -53,15 +53,15 @@ function Hero() {
             GitHub
           </a>
           
-           <a href="https://linkedin.com/in/aya-amir"
+        <a    href="https://linkedin.com/in/aya-amir"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-purple-400 transition-colors"
           >
             LinkedIn
           </a>
-          <a
-            href="mailto:aayaamir35@gmail.com"
+          
+        <a    href="mailto:aayaamir35@gmail.com"
             className="hover:text-purple-400 transition-colors"
           >
             Email

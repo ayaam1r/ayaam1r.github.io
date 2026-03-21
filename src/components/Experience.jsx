@@ -16,11 +16,11 @@ function Experience() {
             Education
           </h3>
 
-          <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden flex hover:animate-pulse">
+          <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden flex flex-col sm:flex-row hover:animate-pulse">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0-bfbwIuUu4x8h7z6StaaoT6WwbkYNnR2Fw&s"
               alt="Helwan University"
-              className="w-56 object-cover flex-shrink-0"
+              className="w-full sm:w-56 h-48 sm:h-auto object-cover flex-shrink-0"
             />
             <div className="p-6 flex flex-col gap-3">
               <div>
@@ -54,11 +54,11 @@ function Experience() {
           <div className="flex flex-col gap-6">
 
             {/* Teaching Assistant */}
-            <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden flex hover:animate-pulse">
+            <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden flex flex-col sm:flex-row hover:animate-pulse">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt7aXoMa_Sy-r1dHdtbykShvsjUjlgjriwlQ&s"
                 alt="Shorouk Academy"
-                className="w-56 object-cover flex-shrink-0"
+                className="w-full sm:w-56 h-48 sm:h-auto object-cover flex-shrink-0"
               />
               <div className="p-6 flex flex-col gap-3">
                 <div className="flex items-start justify-between gap-4">
@@ -85,54 +85,54 @@ function Experience() {
             </div>
 
             {/* Engaz Center */}
-            <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden flex hover:animate-pulse">
-            <img
+            <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden flex flex-col sm:flex-row hover:animate-pulse">
+              <img
                 src="https://engaz-center.netlify.app/assets/about-B4YZgka5.jpg"
                 alt="Engaz Center"
-                className="w-56 object-cover flex-shrink-0"
-            />
-            <div className="p-6 flex flex-col gap-3">
+                className="w-full sm:w-56 h-48 sm:h-auto object-cover flex-shrink-0"
+              />
+              <div className="p-6 flex flex-col gap-3">
                 <div>
-                <h4 className="text-white font-semibold text-lg">
+                  <h4 className="text-white font-semibold text-lg">
                     Frontend Developer — Engaz Center
-                </h4>
-                <p className="text-zinc-500 text-sm mt-1">Dec. 2025 – Mar. 2026 · Remote / Freelance</p>
+                  </h4>
+                  <p className="text-zinc-500 text-sm mt-1">Dec. 2025 – Mar. 2026 · Remote / Freelance</p>
                 </div>
                 <p className="text-zinc-400 text-sm leading-relaxed">
-                Developed and hosted a website for Engaz Treatment Center using React.js,
-                Tailwind CSS, JavaScript and EmailJS.
+                  Developed and hosted a website for Engaz Treatment Center using React.js,
+                  Tailwind CSS, JavaScript and EmailJS.
                 </p>
                 <p className="text-zinc-400 text-sm leading-relaxed">
-                Delivered a professional design with features including direct email contact
-                through a website form, language translations, direct WhatsApp chat access,
-                and smooth animations.
+                  Delivered a professional design with features including direct email contact
+                  through a website form, language translations, direct WhatsApp chat access,
+                  and smooth animations.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                {['React.js', 'Tailwind CSS', 'JavaScript', 'EmailJS', 'Freelance'].map(tag => (
+                  {['React.js', 'Tailwind CSS', 'JavaScript', 'EmailJS', 'Freelance'].map(tag => (
                     <span key={tag} className="bg-zinc-800 text-zinc-400 text-xs px-3 py-1 rounded-full">
-                    {tag}
+                      {tag}
                     </span>
-                ))}
+                  ))}
                 </div>
                 <div className="mt-2">
-                
+                  
                 <a    href="https://engaz-center.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="border border-zinc-700 hover:border-purple-400 text-zinc-400 hover:text-purple-400 text-xs px-4 py-2 rounded-lg transition-colors"
-                >
+                  >
                     Live Site
-                </a>
+                  </a>
                 </div>
-            </div>
+              </div>
             </div>
 
             {/* Banque du Caire */}
-            <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden flex hover:animate-pulse">
+            <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden flex flex-col sm:flex-row hover:animate-pulse">
               <img
                 src="https://images.dailynewsegypt.com/2024/04/WhatsApp_Image_2024-03-31_at_3.10.56_PM.jpeg"
                 alt="Banque du Caire"
-                className="w-56 object-cover flex-shrink-0"
+                className="w-full sm:w-56 h-48 sm:h-auto object-cover flex-shrink-0"
               />
               <div className="p-6 flex flex-col gap-3">
                 <div>
